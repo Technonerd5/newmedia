@@ -16,7 +16,7 @@ if (page == "even.html") {
         document.getElementById('centered').innerHTML = `<p class="foreground">Sorry, now's an <strong>odd</strong> time for me, could you come back when my schedule's more <strong>even?</strong><br><a href="index.html">Click me to return to the main page</a></p>`
     }
     else{
-        document.getElementById('centered').innerHTML = `<p class="foreground">Hello, welcome to my humble abode, feel free to take a look around.<br>I'd love to stay and chat but it's almost that time again, I should send you on your way. <br><strong>Baba</strong><br><a href="index.html">Click me to return to the main page</a></p>`
+        document.getElementById('centered').innerHTML = `<p class="foreground">Hello, welcome to my humble abode, feel free to take a look around.<br>I'd love to stay and chat but it's almost that time again, I should send you on your way. <br><strong>Baba</strong><br><a href="../index.html">Click me to return to the main page</a></p>`
     }
 }
 
@@ -39,6 +39,6 @@ else if (page == "odd.html") {
 
     }
     else{
-        document.getElementById('centered').innerHTML = `<p class="foreground">Pog you figurd it out good job unless you didnt and you got to this one first wait what i didnt say anything you said something ok anyway have this then get out of my damn house <br><strong>Booey</strong><br><a href="index.html">Click me to return to the main page</a></p>`
+        document.getElementById('centered').innerHTML = `<p class="foreground">Pog you figurd it out good job unless you didnt and you got to this one first wait what i didnt say anything you said something ok anyway have this then get out of my damn house <br><strong>Booey</strong><br><a href="../index.html">Click me to return to the main page</a></p>`
     }
 }
