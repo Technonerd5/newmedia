@@ -1,0 +1,76 @@
+body{
+    font-family: cursive;
+    color: yellowgreen;
+    font-size: 100px;
+    background-image: linear-gradient(red,orange,yellow,green,blue,indigo,violet); 
+}
+li a{    
+    all: inherit;
+}
+li a{
+    all: inherit;
+}
+.title{
+    position: absolute;
+    left: 5%;
+    top: 5%;
+    background: hotpink;
+    color:inherit;
+    text-decoration: overline;
+    text-decoration-color: lawngreen;
+    outline-style: dotted;
+    outline-color: hotpink;
+    outline-width: 0.15em;
+    transition: outline-width 0.5s, outline-color 1s, color 0.75s, background 1s;
+}
+.title:hover{
+    text-decoration: wavy underline overline;
+    text-decoration-color: olivedrab;
+    color: maroon;
+    outline-style: dashed;
+    outline-width: 0.30em;
+    outline-color: lawngreen;
+    background: lawngreen;
+
+}
+ol{
+    color: saddlebrown;
+    font-size: 72px;
+}
+li{
+    color: mediumturquoise;
+    font-size: 56px;
+}
+li:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+#calclink{
+    text-decoration: underline dotted;
+    color: lime;
+    text-decoration-color: orangered;
+    background: yellow;
+    outline-style: groove;
+    outline-width: 0.15em;
+    outline-color: lime;
+    transition: outline-color 1s, background 2.5s, color 2.5s;
+}
+#calclink:hover{
+    text-decoration: overline wavy;
+    text-decoration-color: seagreen;
+    outline-color: rebeccapurple;
+    color: rebeccapurple;
+    background: palegreen;
+}
+#weblist{
+    position: absolute;
+    margin-left: 5%;
+}
+#suffer{
+    -moz-user-select: none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    transition: color 1s;
+}

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <script src="../scripts/javascript.js"></script>
+    <link rel="stylesheet" href="../styles/calc.css">
+</head>
+
+<body>
+        <h1>Welcome to Calcula<a id="passlink" href="password.html">tor.</a></h1>
+        <br>
+        <h2>
+            <a href="../index.html" id="return">You can click here to go back to the main page.</a>
+        </h2>
+        <br>
+        <p id="info">Put the first number here:</p>
+        <input type="number" id="int1">
+        <br>
+        <br>
+        <p id="info">Select the operation to perform:</p>
+        <select id="operation">
+            <option value="+">+</option>
+            <option value="-">-</option>
+            <option value="*">*</option>
+            <option value="/">/</option>
+        </select>
+        <br>
+        <br>
+        <p id="info">Put the second number here:</p>
+        <input type="number" id="int2">
+        <br>
+        <br>
+        <button id="submit" onclick="calculator()">Go</button>
+        <br>
+        <br>
+        <p id="info">Your output will appear here:</p>
+            <p id="output" onclick="alert('Nope, this isn\'t a link.  Sorry!')"></p>
+</body>
+</html>

@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Oxygen:wght@300&display=swap');
+*{
+    padding: 0px;
+    margin: 0px
+}
+body{
+    height: 100%; 
+    overflow: hidden;
+    font-family: 'Oxygen';
+    font-size: 35px;
+    background: black;
+    color: white;
+}
+div{
+    text-align: center;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+    
+}
+.foreground{
+    color: black;
+    background-color: rgba(255, 255, 255, 0.50);
+    
+}
+#bktext{
+    -moz-user-select: none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background-color: black;
+    font-size: 25px;
+    vertical-align: top;
+}
+a{
+    text-decoration: inherit;
+    color: inherit;
+}
