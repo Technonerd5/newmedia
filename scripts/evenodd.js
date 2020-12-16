@@ -13,7 +13,7 @@ if (page == "even.html") {
     }
     document.getElementById("bktext").innerHTML = background;
     if (isOdd == true) {
-        document.getElementById('centered').innerHTML = `<p class="foreground">Sorry, now's an <strong>odd</strong> time for me, could you come back when my schedule's more <strong>even?</strong><br><a href="index.html">Click me to return to the main page</a></p>`
+        document.getElementById('centered').innerHTML = `<p class="foreground">Sorry, now's an <strong>odd</strong> time for me, could you come back when my schedule's more <strong>even?</strong><br><a href="../index.html">Click me to return to the main page</a></p>`
     }
     else{
         document.getElementById('centered').innerHTML = `<p class="foreground">Hello, welcome to my humble abode, feel free to take a look around.<br>I'd love to stay and chat but it's almost that time again, I should send you on your way. <br><strong>Baba</strong><br><a href="../index.html">Click me to return to the main page</a></p>`
@@ -35,7 +35,7 @@ else if (page == "odd.html") {
     }
     document.getElementById("bktext").innerHTML = background;
     if (isOdd == false) {
-        document.getElementById('centered').innerHTML = `<p class="foreground">Sorry, my schedule's a bit un<strong>even</strong> at the moment, could you come back in a minute or <strong>three?</strong><br><a href="index.html">Click me to return to the main page</a></p>`
+        document.getElementById('centered').innerHTML = `<p class="foreground">Sorry, my schedule's a bit un<strong>even</strong> at the moment, could you come back in a minute or <strong>three?</strong><br><a href="../index.html">Click me to return to the main page</a></p>`
 
     }
     else{
